@@ -1,0 +1,10 @@
+.header {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  /* background-color: rgb(29, 31, 71); */
+  background-image: linear-gradient(to left, rgb(5, 4, 28), rgb(4, 1, 14));
+  /* background-size: cover; */
+}
