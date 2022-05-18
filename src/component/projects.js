@@ -1,5 +1,7 @@
 import React from 'react';
- 
+import Card from 'react-bootstrap/Card'
+
+
 class Projects extends React.Component {
     constructor(props) {
         super(props);
@@ -8,7 +10,8 @@ class Projects extends React.Component {
     render() {
         return (
             <div className='page'>
-                <h1 className='header typeWriter'>Projects</h1>
+                <h1 className='header typeWriter'>Personal Projects</h1>
+                <Card.Footer className="text-muted footer"> Made with ❤️ By Ali</Card.Footer>
             </div>
         )
     }

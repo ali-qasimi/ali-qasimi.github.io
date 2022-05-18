@@ -9,6 +9,8 @@ import {
     themes,
     createTheme
   } from '@merc/react-timeline';
+import Card from 'react-bootstrap/Card'
+
 
 const customTheme = createTheme(themes.default, {
     card: {
@@ -25,7 +27,7 @@ const customTheme = createTheme(themes.default, {
     },
   });
 
-class Resume extends React.Component {
+class WorkExperience extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -33,8 +35,9 @@ class Resume extends React.Component {
     render() {
         return (
             <div className='page'>
-                <h1 className='header typeWriter'>Resume</h1>
-                <Timeline theme={customTheme}>
+                <h1 className='header typeWriter'>Work Experience</h1>
+                
+                <Timeline theme={customTheme} className="timeline">
                     <Events>
                     <TextEvent date="Oct 2021 - Present" text="**DevOps Engineer - National Australia Bank (NAB)** <br>
                     <br>As a DevOps Engineer behind the nabONE application used across all NAB branches, my role includes:
@@ -73,7 +76,9 @@ class Resume extends React.Component {
                     <br>• Kept track of the students’ improvement" />
                     </Events>
 
+
                 </Timeline>
+                <Card.Footer className="text-muted footer"> Made with ❤️ By Ali</Card.Footer>
             </div>
         )
     }
@@ -81,4 +86,4 @@ class Resume extends React.Component {
 }
 
 
-export default Resume;
+export default WorkExperience;
