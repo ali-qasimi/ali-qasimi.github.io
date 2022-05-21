@@ -2,6 +2,12 @@ import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
 import { Icon } from '@iconify/react'
 import Card from 'react-bootstrap/Card'
+import Figure from 'react-bootstrap/Figure'
+import aws_saa_002 from '../images/aws_saa_002.png'
+import aws_soa_002 from '../images/aws_soa_002.png'
+import ccnp from '../images/ccnp.png'
+import cisco_specialist from '../images/cisco_specialist.jpg'
+import ccna from '../images/ccna.jpg'
 
 class Home extends React.Component {
     constructor(props) {
@@ -15,12 +21,12 @@ class Home extends React.Component {
                 <h1 className='header typeWriter'>Hi There, I'm Ali Qasimi</h1>
                 <p>
                 I am a DevOps Engineer and a tech enthusiast. <br></br>
-                I have delivered a variety of projects ranging from integration of Cloud or On-Prem infrastructure & CI/CD pipelines to automation initiatives & ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
+                I have delivered a variety of projects involving integration of Cloud & On-Prem infrastructure, developing CI/CD pipelines, developing automation & optimisation initiatives, and performing ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
                 <br></br>
                 <br></br>
                 </p>
 
-                <h2 className="header">Tech Stack</h2>
+                <h2 className="header">Tech Stack I Work With</h2>
 
                 <Container fluid="auto">
                     <Row>
@@ -66,15 +72,99 @@ class Home extends React.Component {
                 <br></br>
                 <h2 className="header">Certifications</h2>
                 
-                <Container fluid="auto">
+                <Container className='blur' fluid="auto">
                     <Row>
                         <Col className="table-text"> 
+                            <br></br>
+                            <Figure>
+                                <Figure.Image
+                                    width={200}
+                                    height={200}
+                                    // alt="200x200"
+                                    src={aws_saa_002}
+                                />
+                                <Figure.Caption>
+                                    AWS Certified Solutions Architect – Associate
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                        <Col className="table-text"> 
+                            <br></br>
+                            <Figure>
+                                <Figure.Image
+                                    width={200}
+                                    height={200}
+                                    // alt="200x200"
+                                    src={aws_soa_002}
+                                />
+                                <Figure.Caption>
+                                    AWS Certified SysOps Administrator – Associate
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                        <Col className="table-text"> 
+                            <br></br>
+                            <Figure>
+                                <Figure.Image
+                                    width={200}
+                                    height={200}
+                                    // alt="200x200"
+                                    src={ccnp}
+                                />
+                                <Figure.Caption>
+                                    Cisco Certified Network Professional Enterprise (CCNP Enterprise)
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="table-text">
+                            <br></br>
+                            <Figure>
+                                <Figure.Image
+                                    width={200}
+                                    height={200}
+                                    // alt="200x200"
+                                    src={cisco_specialist}
+                                />
+                                <Figure.Caption>
+                                Cisco Certified Specialist - Enterprise Advanced Infrastructure Implementation (ENARSI)
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                        <Col className="table-text">
+                            <br></br>
+                            <Figure>
+                                <Figure.Image
+                                     width={200}
+                                     height={200}
+                                    // alt="200x200"
+                                    src={cisco_specialist}
+                                />
+                                <Figure.Caption>
+                                Cisco Certified Specialist - Enterprise Core
+                                </Figure.Caption>
+                            </Figure>
+                        </Col>
+                        <Col className="table-text">
+                            <br></br>
+                            <Figure>
+                                <Figure.Image
+                                     width={200}
+                                     height={200}
+                                    // alt="200x200"
+                                    src={ccna}
+                                />
+                                <Figure.Caption>
+                                Cisco Certified Network Associate (CCNA)
+                                </Figure.Caption>
+                            </Figure>
                         </Col>
                     </Row>
 
                 </Container>
 
-                <Card.Footer className="text-muted footer"> Made with ❤️ By Ali</Card.Footer>
+                <Card.Footer className="text-muted footer"> made with ❤️ by Ali</Card.Footer>
             </div>
         )
     }
