@@ -1,8 +1,8 @@
 
 body {
   margin: 0;
-  /* background-color: rgb(29, 31, 71); */
-  background-image: linear-gradient(to left, rgb(5, 4, 28), rgb(4, 1, 14));
+   /* background-color: #001f3f; */
+  background-image: linear-gradient(to left, rgb(0, 31, 63), rgb(11, 4, 33));
   /* background-size: cover; */
 }
 
@@ -81,6 +81,14 @@ p {
   text-align: center;
   color: azure;
   padding-top: 2.5em;
+}
+
+.blur {
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2.5%;
+  background-color: rgb(11, 45, 80);
 }
 
 .timeline {
