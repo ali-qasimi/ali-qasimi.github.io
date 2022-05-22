@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d66767c.css",
-    "main.js": "/static/js/main.3bfd86dc.js",
+    "main.css": "/static/css/main.9d48f79b.css",
+    "main.js": "/static/js/main.c14e390f.js",
+    "static/media/mastering-farsi.png": "/static/media/mastering-farsi.732cbbf1f45725c1e404.png",
+    "static/media/monash-logo.jpg": "/static/media/monash-logo.8d444adc5983eb71d1b2.jpg",
+    "static/media/github-projects.png": "/static/media/github-projects.59ea965d955914310a2f.png",
     "static/media/ccnp.png": "/static/media/ccnp.1c31af0b838ea756b03e.png",
     "static/media/aws_soa_002.png": "/static/media/aws_soa_002.90b0f4fad9044fc5128a.png",
     "static/media/aws_saa_002.png": "/static/media/aws_saa_002.22576f263fbae6620043.png",
     "static/media/cisco_specialist.jpg": "/static/media/cisco_specialist.23fc8512465a16a2959d.jpg",
     "static/media/ccna.jpg": "/static/media/ccna.72090df9030ad033dc71.jpg",
     "index.html": "/index.html",
-    "main.4d66767c.css.map": "/static/css/main.4d66767c.css.map",
-    "main.3bfd86dc.js.map": "/static/js/main.3bfd86dc.js.map"
+    "main.9d48f79b.css.map": "/static/css/main.9d48f79b.css.map",
+    "main.c14e390f.js.map": "/static/js/main.c14e390f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d66767c.css",
-    "static/js/main.3bfd86dc.js"
+    "static/css/main.9d48f79b.css",
+    "static/js/main.c14e390f.js"
   ]
 }
