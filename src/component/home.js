@@ -8,6 +8,7 @@ import aws_soa_002 from '../images/aws_soa_002.png'
 import ccnp from '../images/ccnp.png'
 import cisco_specialist from '../images/cisco_specialist.jpg'
 import ccna from '../images/ccna.jpg'
+import monash_logo from '../images/monash-logo.jpg'
 
 class Home extends React.Component {
     constructor(props) {
@@ -18,10 +19,12 @@ class Home extends React.Component {
 
         return (
             <div className='page'>
-                <h1 className='header typeWriter'>Hi There, I'm Ali Qasimi</h1>
+                <div className='h1Wrapper'>
+                    <h1 className='typeWriter'>Hi There, I'm Ali Qasimi</h1>
+                </div>
                 <p>
                 I am a DevOps Engineer and a tech enthusiast. <br></br>
-                I have delivered a variety of projects involving integration of Cloud & On-Prem infrastructure, developing CI/CD pipelines, developing automation & optimisation initiatives, and performing ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
+                I have delivered a variety of projects involving integration of Cloud & On-Prem infrastructure, developing CI/CD pipelines, building automation & optimisation initiatives, and running ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
                 <br></br>
                 <br></br>
                 </p>
@@ -30,7 +33,7 @@ class Home extends React.Component {
 
                 <Container fluid="auto">
                     <Row>
-                        <Col className="table-text"> AWS <br></br><br></br><Icon className="icons" icon="logos:aws" /></Col>
+                        <Col className="table-text"> AWS <br></br><br></br><Icon className="icons" icon="vscode-icons:file-type-aws" /></Col>
                         <Col className="table-text"> Terraform<br></br><br></br><Icon className="icons" icon="logos:terraform-icon" /></Col>
                         <Col className="table-text"> Jenkins<br></br><br></br><Icon className="icons" icon="logos:jenkins" /></Col>
                     </Row>
@@ -72,9 +75,9 @@ class Home extends React.Component {
                 <br></br>
                 <h2 className="header">Certifications</h2>
                 
-                <Container className='blur' fluid="auto">
+                <Container className='cert-card' fluid="auto">
                     <Row>
-                        <Col className="table-text"> 
+                        <Col> 
                             <br></br>
                             <Figure>
                                 <Figure.Image
@@ -83,12 +86,12 @@ class Home extends React.Component {
                                     // alt="200x200"
                                     src={aws_saa_002}
                                 />
-                                <Figure.Caption>
-                                    AWS Certified Solutions Architect – Associate
-                                </Figure.Caption>
+                                <br></br>
+                                <a className="link-text" href='https://www.credly.com/badges/faf03129-dc1c-4eab-a589-5656d02e2769/public_url' target={"_blank"}>AWS Certified Solutions Architect – Associate <Icon icon="bx:link-external" /> </a>
+                            
                             </Figure>
                         </Col>
-                        <Col className="table-text"> 
+                        <Col> 
                             <br></br>
                             <Figure>
                                 <Figure.Image
@@ -97,12 +100,11 @@ class Home extends React.Component {
                                     // alt="200x200"
                                     src={aws_soa_002}
                                 />
-                                <Figure.Caption>
-                                    AWS Certified SysOps Administrator – Associate
-                                </Figure.Caption>
+                                <br></br>
+                                <a className="link-text" href='https://www.credly.com/badges/ba85844d-9b19-40d5-a736-efe609d20a1f/public_url' target={"_blank"}>AWS Certified SysOps Administrator – Associate <Icon icon="bx:link-external" /> </a>
                             </Figure>
                         </Col>
-                        <Col className="table-text"> 
+                        <Col> 
                             <br></br>
                             <Figure>
                                 <Figure.Image
@@ -111,14 +113,13 @@ class Home extends React.Component {
                                     // alt="200x200"
                                     src={ccnp}
                                 />
-                                <Figure.Caption>
-                                    Cisco Certified Network Professional Enterprise (CCNP Enterprise)
-                                </Figure.Caption>
+                                <br></br>
+                                <a className="link-text" href='https://www.credly.com/badges/c5ab094e-421b-473d-9595-654d7a923cca/public_url' target={"_blank"}>Cisco Certified Network Professional Enterprise (CCNP Enterprise) <Icon icon="bx:link-external" /> </a>
                             </Figure>
                         </Col>
                     </Row>
                     <Row>
-                        <Col className="table-text">
+                        <Col>
                             <br></br>
                             <Figure>
                                 <Figure.Image
@@ -127,12 +128,11 @@ class Home extends React.Component {
                                     // alt="200x200"
                                     src={cisco_specialist}
                                 />
-                                <Figure.Caption>
-                                Cisco Certified Specialist - Enterprise Advanced Infrastructure Implementation (ENARSI)
-                                </Figure.Caption>
+                                <br></br>
+                                <a className="link-text" href='https://www.credly.com/badges/592bc765-d46b-459e-ab84-a3214d94221a/public_url' target={"_blank"}>Cisco Certified Specialist - Enterprise Advanced Infrastructure Implementation (ENARSI) <Icon icon="bx:link-external" /> </a>
                             </Figure>
                         </Col>
-                        <Col className="table-text">
+                        <Col>
                             <br></br>
                             <Figure>
                                 <Figure.Image
@@ -141,12 +141,11 @@ class Home extends React.Component {
                                     // alt="200x200"
                                     src={cisco_specialist}
                                 />
-                                <Figure.Caption>
-                                Cisco Certified Specialist - Enterprise Core
-                                </Figure.Caption>
+                                <br></br>
+                                <a className="link-text" href='https://www.credly.com/badges/592bc765-d46b-459e-ab84-a3214d94221a/public_url' target={"_blank"}>Cisco Certified Specialist - Enterprise Core <Icon icon="bx:link-external" /> </a>
                             </Figure>
                         </Col>
-                        <Col className="table-text">
+                        <Col>
                             <br></br>
                             <Figure>
                                 <Figure.Image
@@ -155,9 +154,24 @@ class Home extends React.Component {
                                     // alt="200x200"
                                     src={ccna}
                                 />
-                                <Figure.Caption>
-                                Cisco Certified Network Associate (CCNA)
-                                </Figure.Caption>
+                                <br></br>
+
+                                <a className="link-text" href='https://www.credly.com/badges/cebb91db-49ab-4689-b06f-fa24c508d9d0/public_url' target={"_blank"}>Cisco Certified Network Associate (CCNA) <Icon icon="bx:link-external" /> </a>
+                            </Figure>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                        <br></br>
+                            <Figure>
+                                <Figure.Image
+                                     width={200}
+                                     height={200}
+                                    // alt="200x200"
+                                    src={monash_logo}
+                                />
+                                <br></br>
+                                <a className="link-text" href='https://www.monash.edu/' target={"_blank"}>Bachelor of Enginering (Honours) - Electrical & Computer Systems <Icon icon="bx:link-external" /> </a>
                             </Figure>
                         </Col>
                     </Row>

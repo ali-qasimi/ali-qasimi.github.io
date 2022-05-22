@@ -6,17 +6,53 @@ body {
   /* background-size: cover; */
 }
 
-/* h2 {
-  text-align: center;
+.navLink {
+  color: azure;
+}
+
+.h1Wrapper {
   width: max-content;
-  margin-bottom: 50em;
-} */
+  margin: 0 auto;
+}
 
 h1 {
-  text-align: center;
+  text-align: center; 
   width: max-content;
-  /* margin-bottom: 50em; */
+  margin-bottom: 50em;
   color: azure;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 5.5vw !important;
+  }
+  h2 {
+    font-size: 4.5vw !important;
+  }
+}
+
+.typeWriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(110, 192, 138); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  color: azure;
+  animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(110, 192, 138); }
 }
 
 h2 {
@@ -39,33 +75,6 @@ p {
   padding-right: 5%;
 }
 
-.navItem {
-  color: azure;
-}
-
-.typeWriter {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(110, 192, 138); /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  color: azure;
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(110, 192, 138); }
-}
 /* .Card {
   size:500px
 } */
@@ -77,27 +86,68 @@ p {
   font-size: 6vw;
 }
 .table-text {
-  font-size: x-large;
+  font-size: 1.5em;
   text-align: center;
   color: azure;
   padding-top: 2.5em;
 }
 
-.blur {
+.cert-card {
   /* filter: blur(8px);
   -webkit-filter: blur(8px); */
   border: 1px solid rgb(255, 255, 255);
   border-radius: 2.5%;
-  background-color: rgb(11, 45, 80);
+  /* background-color: rgb(11, 45, 80); */
+  background-color: #92A8D1;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+
+.link-text {
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+  text-align: center;
+}
+.link-text:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 .timeline {
   margin-top: 5%;
 }
 
+.personalProjectText {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-bottom: 2rem;
+}
+.personalProjectCard {
+  padding-top: calc(var(--bs-gutter-x) * .5);
+  position: absolute;
+  background-color: #92A8D1 !important;
+}
+.personalProjectButton {
+  position: absolute;
+  padding: 1rem;
+  bottom: 3.5rem;
+}
+
+.contactIcon {
+  font-size: 6vw;
+  text-align: center;
+  text-decoration: none;
+  color: azure;
+}
+
 .footer {
   height: 5vw;
   margin-top: 10vw;
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* left: 42%; */
   text-align: center;
 }
   

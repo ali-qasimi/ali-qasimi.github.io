@@ -24,7 +24,7 @@ class PersonalWebsite extends React.Component {
                   <Route exact path='/workExperience' element={< WorkExperience />}></Route>
                   <Route exact path='/projects' element={< Projects />}></Route>
                   <Route exact path='/contact' element={< Contact />}></Route>
-                  <Route exact path='*' element={< Home />}></Route>
+                  <Route exact path='/*' element={< Home />}></Route>
                 </Routes>
             </Container>
             

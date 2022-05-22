@@ -13,16 +13,16 @@ class Navigation extends React.Component {
             <div>
                 <Nav justify variant="tabs" defaultActiveKey="/">
                     <Nav.Item>
-                        <Nav.Link as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/"> <span className='navLink'>Home</span></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} to="/workExperience">Work Experience</Nav.Link>
+                        <Nav.Link as={Link} to="/workExperience"> <span className='navLink'>Work Experience</span> </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} to="/projects">Personal Projects</Nav.Link>
+                        <Nav.Link as={Link} to="/projects"> <span className='navLink'>Personal Projects</span> </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                        <Nav.Link as={Link} to="/contact"> <span className='navLink'>Contact</span> </Nav.Link>
                     </Nav.Item>
                 </Nav>
             </div>

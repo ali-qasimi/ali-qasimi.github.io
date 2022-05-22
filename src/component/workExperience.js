@@ -35,7 +35,9 @@ class WorkExperience extends React.Component {
     render() {
         return (
             <div className='page'>
-                <h1 className='header typeWriter'>Work Experience</h1>
+              <div className='h1Wrapper'>
+              <h1 className='typeWriter'>Work Experience</h1>
+              </div>
                 
                 <Timeline theme={customTheme} className="timeline">
                     <Events>
@@ -78,7 +80,7 @@ class WorkExperience extends React.Component {
 
 
                 </Timeline>
-                <Card.Footer className="text-muted footer"> Made with ❤️ By Ali</Card.Footer>
+                {/* <Card.Footer className="text-muted footer"> made with ❤️ by Ali</Card.Footer> */}
             </div>
         )
     }
