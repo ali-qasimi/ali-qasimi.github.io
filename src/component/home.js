@@ -6,9 +6,9 @@ import Figure from 'react-bootstrap/Figure'
 import aws_saa_002 from '../images/aws_saa_002.png'
 import aws_soa_002 from '../images/aws_soa_002.png'
 import ccnp from '../images/ccnp.png'
-import cisco_specialist from '../images/cisco_specialist.jpg'
-import ccna from '../images/ccna.jpg'
-import monash_logo from '../images/monash-logo.jpg'
+import cisco_specialist from '../images/cisco_specialist.png'
+import ccna from '../images/ccna.png'
+import monash_logo from '../images/monash-logo.png'
 
 class Home extends React.Component {
     constructor(props) {
@@ -75,10 +75,10 @@ class Home extends React.Component {
                 <br></br>
                 <h2 className="header">Certifications</h2>
                 
-                <Container className='cert-card' fluid="auto">
-                    <Row>
-                        <Col> 
-                            <br></br>
+                <div className='cert-card'>
+                    {/* <Row>
+                        <Col>  */}
+                            {/* <br></br> */}
                             <Figure>
                                 <Figure.Image
                                     width={200}
@@ -90,9 +90,9 @@ class Home extends React.Component {
                                 <a className="link-text" href='https://www.credly.com/badges/faf03129-dc1c-4eab-a589-5656d02e2769/public_url' target={"_blank"}>AWS Certified Solutions Architect – Associate <Icon icon="bx:link-external" /> </a>
                             
                             </Figure>
-                        </Col>
-                        <Col> 
-                            <br></br>
+                        {/* </Col>
+                        <Col>  */}
+                            {/* <br></br> */}
                             <Figure>
                                 <Figure.Image
                                     width={200}
@@ -103,9 +103,9 @@ class Home extends React.Component {
                                 <br></br>
                                 <a className="link-text" href='https://www.credly.com/badges/ba85844d-9b19-40d5-a736-efe609d20a1f/public_url' target={"_blank"}>AWS Certified SysOps Administrator – Associate <Icon icon="bx:link-external" /> </a>
                             </Figure>
-                        </Col>
-                        <Col> 
-                            <br></br>
+                        {/* </Col>
+                        <Col>  */}
+                            {/* <br></br> */}
                             <Figure>
                                 <Figure.Image
                                     width={200}
@@ -116,11 +116,11 @@ class Home extends React.Component {
                                 <br></br>
                                 <a className="link-text" href='https://www.credly.com/badges/c5ab094e-421b-473d-9595-654d7a923cca/public_url' target={"_blank"}>Cisco Certified Network Professional Enterprise (CCNP Enterprise) <Icon icon="bx:link-external" /> </a>
                             </Figure>
-                        </Col>
+                        {/* </Col>
                     </Row>
                     <Row>
-                        <Col>
-                            <br></br>
+                        <Col> */}
+                            {/* <br></br> */}
                             <Figure>
                                 <Figure.Image
                                     width={200}
@@ -131,9 +131,9 @@ class Home extends React.Component {
                                 <br></br>
                                 <a className="link-text" href='https://www.credly.com/badges/592bc765-d46b-459e-ab84-a3214d94221a/public_url' target={"_blank"}>Cisco Certified Specialist - Enterprise Advanced Infrastructure Implementation (ENARSI) <Icon icon="bx:link-external" /> </a>
                             </Figure>
-                        </Col>
-                        <Col>
-                            <br></br>
+                        {/* </Col>
+                        <Col> */}
+                            {/* <br></br> */}
                             <Figure>
                                 <Figure.Image
                                      width={200}
@@ -144,9 +144,9 @@ class Home extends React.Component {
                                 <br></br>
                                 <a className="link-text" href='https://www.credly.com/badges/592bc765-d46b-459e-ab84-a3214d94221a/public_url' target={"_blank"}>Cisco Certified Specialist - Enterprise Core <Icon icon="bx:link-external" /> </a>
                             </Figure>
-                        </Col>
-                        <Col>
-                            <br></br>
+                        {/* </Col>
+                        <Col> */}
+                            {/* <br></br> */}
                             <Figure>
                                 <Figure.Image
                                      width={200}
@@ -158,11 +158,11 @@ class Home extends React.Component {
 
                                 <a className="link-text" href='https://www.credly.com/badges/cebb91db-49ab-4689-b06f-fa24c508d9d0/public_url' target={"_blank"}>Cisco Certified Network Associate (CCNA) <Icon icon="bx:link-external" /> </a>
                             </Figure>
-                        </Col>
+                        {/* </Col>
                     </Row>
                     <Row>
-                        <Col>
-                        <br></br>
+                        <Col> */}
+                        {/* <br></br> */}
                             <Figure>
                                 <Figure.Image
                                      width={200}
@@ -173,10 +173,10 @@ class Home extends React.Component {
                                 <br></br>
                                 <a className="link-text" href='https://www.monash.edu/' target={"_blank"}>Bachelor of Enginering (Honours) - Electrical & Computer Systems <Icon icon="bx:link-external" /> </a>
                             </Figure>
-                        </Col>
-                    </Row>
+                        {/* </Col>
+                    </Row> */}
 
-                </Container>
+                </div>
 
                 <Card.Footer className="text-muted footer"> made with ❤️ by Ali</Card.Footer>
             </div>

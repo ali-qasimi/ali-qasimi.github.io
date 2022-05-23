@@ -4,6 +4,7 @@ body {
    /* background-color: #001f3f; */
   background-image: linear-gradient(to left, rgb(0, 31, 63), rgb(11, 4, 33));
   /* background-size: cover; */
+  font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 .navLink {
@@ -80,13 +81,24 @@ p {
 } */
 
 .icons {
-  font-size: 10vw;
+  font-size: 12vw;
 }
 .icons-small {
   font-size: 6vw;
 }
+
+@media (min-width: 1500px) {
+  .icons {
+    font-size: 200px;
+  }
+  .icons-small {
+    font-size: 100px;
+  }
+}
+
+
 .table-text {
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   color: azure;
   padding-top: 2.5em;
@@ -102,11 +114,14 @@ p {
   padding-left: 2%;
   padding-right: 2%;
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+  justify-self: center;
 }
 
 .link-text {
   color: black;
-  font-size: 1.2em;
+  font-size: 1em;
   text-decoration: none;
   text-align: center;
 }
@@ -140,6 +155,14 @@ p {
   text-align: center;
   text-decoration: none;
   color: azure;
+}
+@media (min-width: 1500px) {
+  .contactIcon {
+    font-size: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: azure;
+  }
 }
 
 .footer {
