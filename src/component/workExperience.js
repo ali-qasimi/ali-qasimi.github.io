@@ -34,7 +34,7 @@ class WorkExperience extends React.Component {
     
     render() {
         return (
-            <div className='page'>
+            <div className='workExperiencePage'>
               <div className='h1Wrapper'>
               <h1 className='typeWriter'>Work Experience</h1>
               </div>

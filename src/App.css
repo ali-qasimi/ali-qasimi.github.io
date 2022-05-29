@@ -71,9 +71,13 @@ p {
 }
 
 .page {
-  margin-top: 80px;
+  margin-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.workExperiencePage {
+  margin-top: 5%;
 }
 
 /* .Card {
@@ -131,7 +135,9 @@ p {
 }
 
 .timeline {
-  margin-top: 5%;
+  margin-top: 1%;
+  padding-left: 0px  !important;
+  padding-right: 0vw !important;
 }
 
 .personalProjectText {
