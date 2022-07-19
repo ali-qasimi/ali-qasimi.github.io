@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card'
 import CardGroup from 'react-bootstrap/CardGroup'
 import masteringFarsi from '../images/mastering-farsi.png'
 import gitHubProjects from '../images/github-projects.png'
+import pihole from '../images/pihole.jpg'
+import terraform_localstack from '../images/terraform-localstack.png'
 import Button from 'react-bootstrap/Button'
 
 
@@ -19,6 +21,35 @@ class Projects extends React.Component {
                     <h1 className='typeWriter'>Personal Projects</h1>
                 </div>
                 <br></br><br></br>
+                <Row xs={1} md={2} className='g-4 personalProjectRow'>
+                    <Card bg='dark' text='light' className='personalProjectCard'>
+                        <Card.Img variant='top' src={pihole} />
+                        <Card.Body>
+                            <Card.Title>Integrating Pi-hole on Home Network</Card.Title>
+                            <Card.Text className='personalProjectText'>
+                                A guided article on how to deploy the Pi-hole network platform in your home Wifi Network.
+                            </Card.Text>
+                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://github.com/ali-qasimi/pihole/blob/main/README.md'>Visit Article</Button>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className='text-muted'>Article</small>
+                        </Card.Footer>
+                    </Card>
+                    <Card bg='dark' text='light' className='personalProjectCard'>
+                        <Card.Img variant='top' src={terraform_localstack} />
+                        <Card.Body>
+                            <Card.Title>Terraform Projects</Card.Title>
+                            <Card.Text className='personalProjectText'>
+                                Some Terraform projects that I have worked on in my spare time. I used localstack as the cloud service emulator.
+                            </Card.Text>
+                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://github.com/ali-qasimi/terraform-projects'>Visit Projects</Button>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className='text-muted'>Git Repo</small>
+                        </Card.Footer>
+                    </Card>
+                </Row>
+
                 <Row xs={1} md={2} className='g-4'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={gitHubProjects} />

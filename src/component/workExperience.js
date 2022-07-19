@@ -42,7 +42,7 @@ class WorkExperience extends React.Component {
                 <Timeline theme={customTheme} className="timeline">
                     <Events>
                     <TextEvent date="Oct 2021 - Present" text="**DevOps Engineer - National Australia Bank (NAB)** <br>
-                    <br>As a DevOps Engineer behind the nabONE application used across all NAB branches, my role includes:
+                    <br>As a DevOps Engineer behind the nabONE banker application, my role includes:
                     <br>
                     <br>• Building and optimising a variety of CI/CD pipelines on Jenkins, for the frontend and backend applications.
                     <br>• Deploying and managing AWS infrastructure including ECS clusters, EC2 instances, ASGs, Load Balancers, RDS databases, IAM permissions, KMS Keys & SSL certs, Security Groups & ACLs, Route 53 hosted zones, S3 buckets, and custom AMI creation & patching. IaC tools used are Terraform, Cloudformation and Ansible.
@@ -63,7 +63,7 @@ class WorkExperience extends React.Component {
                     />
                     <TextEvent date="Nov 2018 - Jan 2019" text="**Developer Intern - National Australia Bank (NAB)** <br>
                     <br>• Developed software pipelines with various AWS products including DynamoDB, Lambda and SQS
-                    <br>• Delivered an advanced search platform based on Elasticsearch as a Proof of Concept (POC), having contributed to both the front end and back end components
+                    <br>• Delivered an advanced search platform based on Elasticsearch as a Proof of Concept (POC)
                     <br>• Worked together with teams running on Agile Framework"
                     />
                     <TextEvent date="Sep 2017 - Feb 2018" text="**Network Engineer Intern - Cisco Systems** <br>
