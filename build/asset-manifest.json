@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4e618ba.css",
-    "main.js": "/static/js/main.5dc88cdb.js",
+    "main.css": "/static/css/main.18932d88.css",
+    "main.js": "/static/js/main.a3214d86.js",
     "static/media/mastering-farsi.png": "/static/media/mastering-farsi.fbc9d5256a5e665adb4e.png",
     "static/media/github-projects.png": "/static/media/github-projects.59ea965d955914310a2f.png",
     "static/media/monash-logo.png": "/static/media/monash-logo.8cbff1c5a82c0f5590af.png",
     "static/media/ccnp.png": "/static/media/ccnp.8b76cb3de5eb3cf5c15f.png",
     "static/media/aws_soa_002.png": "/static/media/aws_soa_002.90b0f4fad9044fc5128a.png",
+    "static/media/pihole.jpg": "/static/media/pihole.8a3a9cf2f289024f150c.jpg",
+    "static/media/az_104.png": "/static/media/az_104.493b5ff8fadae45105e3.png",
+    "static/media/jenkins-k8s.png": "/static/media/jenkins-k8s.b88d8597758188faf356.png",
     "static/media/aws_saa_002.png": "/static/media/aws_saa_002.22576f263fbae6620043.png",
+    "static/media/terraform-localstack.png": "/static/media/terraform-localstack.4ea52a2b94f73a1d35b3.png",
     "static/media/cisco_specialist.png": "/static/media/cisco_specialist.ac288722737b3fbd1702.png",
     "static/media/ccna.png": "/static/media/ccna.cde26e01018713a31d44.png",
     "index.html": "/index.html",
-    "main.a4e618ba.css.map": "/static/css/main.a4e618ba.css.map",
-    "main.5dc88cdb.js.map": "/static/js/main.5dc88cdb.js.map"
+    "main.18932d88.css.map": "/static/css/main.18932d88.css.map",
+    "main.a3214d86.js.map": "/static/js/main.a3214d86.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4e618ba.css",
-    "static/js/main.5dc88cdb.js"
+    "static/css/main.18932d88.css",
+    "static/js/main.a3214d86.js"
   ]
 }

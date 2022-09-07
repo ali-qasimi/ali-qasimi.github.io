@@ -48,12 +48,13 @@ class WorkExperience extends React.Component {
                     <br>• Deploying and managing AWS infrastructure including ECS clusters, EC2 instances, ASGs, Load Balancers, RDS databases, IAM permissions, KMS Keys & SSL certs, Security Groups & ACLs, Route 53 hosted zones, S3 buckets, and custom AMI creation & patching. IaC tools used are Terraform, Cloudformation and Ansible.
                     <br>• Migrating on-prem service engines from IBM Websphere to Azure infrastructure.
                     <br>• Implementing application observability to AppDynamics and logging to Splunk & CloudWatch.
+                    <br>• Integrating centralised secrets management with Hashicorp Vault & CyberArk CCP.
                     <br>• Remediating security vulnerabilities and maintaining configuration compliance.
                     <br>• Right-sizing cloud resources and implementing power management to minimise costs. Generating monthly reports for analysis.
                     <br>• Modernising the Jenkins platforms including fresh deployments, upgrades, and configuration of new agents on EC2 spot fleet." 
                     />
-                    <TextEvent date="Feb 2019 - Oct 2021" text="**Integration Engineer - Ericsson** <br>
-                    <br>• Delivered network solution design, integration and testing in both model and live environments for NBN's broadband core network managing 600,000+ subscribers
+                    <TextEvent date="Feb 2019 - Oct 2021" text="**Infrastructure Engineer - Ericsson** <br>
+                    <br>• Delivered network solution design, integration and testing in both model and live environments for NBN's broadband core network managing 200,000+ subscribers
                     <br>• Deployed and maintained network resources including Cisco Catalyst switches, Juniper SRX firewalls, F5 Load Balancers, Ericsson SSR routers and 3GPP network functions on Linux servers
                     <br>• Integrated nodes from multiple vendors with Splunk Indexer for centralised logging
                     <br>• Developed a software pipeline using Python, Selenium and Openpyxl to run an audit of all NBN Fixed Wireless sites
@@ -63,7 +64,7 @@ class WorkExperience extends React.Component {
                     />
                     <TextEvent date="Nov 2018 - Jan 2019" text="**Developer Intern - National Australia Bank (NAB)** <br>
                     <br>• Developed software pipelines with various AWS products including DynamoDB, Lambda and SQS
-                    <br>• Delivered an advanced search platform based on Elasticsearch as a Proof of Concept (POC)
+                    <br>• Delivered an advanced search platform as a Proof of Concept (POC), using Nodejs and Elasticsearch
                     <br>• Worked together with teams running on Agile Framework"
                     />
                     <TextEvent date="Sep 2017 - Feb 2018" text="**Network Engineer Intern - Cisco Systems** <br>

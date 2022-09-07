@@ -34,16 +34,18 @@ class Home extends React.Component {
 
                 <Container fluid="auto">
                     <Row>
-                        <Col className="table-text"> AWS <br></br><br></br><Icon className="icons" icon="vscode-icons:file-type-aws" /></Col>
-                        <Col className="table-text"> Terraform<br></br><br></br><Icon className="icons" icon="logos:terraform-icon" /></Col>
-                        <Col className="table-text"> Jenkins<br></br><br></br><Icon className="icons" icon="logos:jenkins" /></Col>
+                        <Col className="table-text">AWS<br></br><br></br><Icon className="icons" icon="vscode-icons:file-type-aws" /></Col>
+                        <Col className="table-text">Terraform<br></br><br></br><Icon className="icons" icon="logos:terraform-icon" /></Col>
+                        <Col className="table-text">Jenkins<br></br><br></br><Icon className="icons" icon="logos:jenkins" /></Col>
                     </Row>
                     <Row>
-                        <Col className="table-text"> Docker <br></br><br></br><Icon className="icons" icon="logos:docker-icon" /></Col>
-                        <Col className="table-text"> Python<br></br><br></br><Icon className="icons" icon="logos:python" /></Col>
-                        <Col className="table-text"> Bash<br></br><br></br><Icon className="icons" icon="logos:bash-icon" /></Col>
+                        <Col className="table-text">Docker<br></br><br></br><Icon className="icons" icon="logos:docker-icon" /></Col>
+                        <Col className="table-text">Kubernetes<br></br><br></br><Icon className="icons" icon="logos:kubernetes" /></Col>
+                        <Col className="table-text">Python<br></br><br></br><Icon className="icons" icon="logos:python" /></Col>
+                        
                     </Row>
                     <Row>
+                        <Col className="table-text">Bash<br></br><br></br><Icon className="icons" icon="logos:bash-icon" /></Col>
                         <Col className="table-text"> Linux <br></br><br></br> 
                             <Container> 
                                 <Row>
@@ -54,12 +56,15 @@ class Home extends React.Component {
                                 </Row>
                             </Container>
                         </Col>
-                        <Col className="table-text"> GitHub<br></br><br></br><Icon className="icons" icon="akar-icons:github-fill" /></Col>
-                        <Col className="table-text"> Ansible<br></br><br></br><Icon className="icons" icon="cib:ansible" /></Col>
+                        <Col className="table-text">Azure<br></br><br></br><Icon className="icons" icon="logos:microsoft-azure" /></Col>
+                        
                     </Row>
                     <Row>
-                        <Col className="table-text"> JavaScript<br></br><br></br><Icon className="icons" icon="logos:javascript" /></Col>
+                        <Col className="table-text"> GitHub<br></br><br></br><Icon className="icons" icon="akar-icons:github-fill" /></Col>
+                        <Col className="table-text"> Ansible<br></br><br></br><Icon className="icons" icon="cib:ansible" /></Col>
                         <Col className="table-text"> AppDynamics<br></br><br></br><Icon className="icons" icon="logos:appdynamics-icon" /></Col>
+                    </Row>
+                    <Row>
                         <Col className="table-text"> Splunk<br></br><br></br><Icon className="icons" icon="simple-icons:splunk" /></Col>
                     </Row>
 
