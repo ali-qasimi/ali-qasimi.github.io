@@ -18,6 +18,9 @@ class Contact extends React.Component {
                 <p>
                     Reach out to me on: <br></br> <br></br> 
                     <div className="contactIcon">
+                        <a href='mailto:contact.aliqasimi@gmail.com' target={"_blank"} className="contactIcon"> contact.aliqasimi@gmail.com <Icon icon="mdi:email-edit-outline" /> </a>
+                    </div><br></br>
+                    <div className="contactIcon">
                         <a href='https://www.linkedin.com/in/aliqasimi/' target={"_blank"} className="contactIcon"> <Icon icon="logos:linkedin" /> <Icon icon="bx:link-external" /> </a>
                     </div>
                 </p>
