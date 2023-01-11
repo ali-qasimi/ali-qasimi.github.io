@@ -16,7 +16,7 @@ class Navigation extends React.Component {
                         <Nav.Link as={Link} to="/"> <span className='navLink'>Home</span></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link as={Link} to="/workExperience"> <span className='navLink'>Work Experience</span> </Nav.Link>
+                        <Nav.Link as={Link} to="/experience"> <span className='navLink'>Experience</span> </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link as={Link} to="/projects"> <span className='navLink'>Personal Projects</span> </Nav.Link>

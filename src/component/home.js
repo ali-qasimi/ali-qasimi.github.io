@@ -3,6 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import { Icon } from '@iconify/react'
 import Card from 'react-bootstrap/Card'
 import Figure from 'react-bootstrap/Figure'
+import ckad from '../images/ckad.png'
 import az_104 from '../images/az_104.png'
 import aws_saa_002 from '../images/aws_saa_002.png'
 import aws_soa_002 from '../images/aws_soa_002.png'
@@ -75,13 +76,20 @@ class Home extends React.Component {
                 <br></br>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
                 <h2 className="header">Certifications</h2>
                 
                 <div className='cert-card'>
+                    <Figure>
+                        <Figure.Image
+                            width={200}
+                            height={200}
+                            // alt="200x200"
+                            src={ckad}
+                        />
+                        <br></br>
+                        <a className="link-text" href='https://www.credly.com/badges/0349ac2c-f1fe-4aae-b2d2-682e6cc7bfe2/public_url' target={"_blank"}>Certified Kubernetes Application Developer (CKAD)<Icon icon="bx:link-external" /> </a>
+                    
+                    </Figure>
                     <Figure>
                         <Figure.Image
                             width={200}

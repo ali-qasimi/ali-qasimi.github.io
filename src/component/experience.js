@@ -27,7 +27,7 @@ const customTheme = createTheme(themes.default, {
     },
   });
 
-class WorkExperience extends React.Component {
+class Experience extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -36,12 +36,12 @@ class WorkExperience extends React.Component {
         return (
             <div className='workExperiencePage'>
               <div className='h1Wrapper'>
-              <h1 className='typeWriter'>Work Experience</h1>
+              <h1 className='typeWriter'>Professional Experience</h1>
               </div>
                 
                 <Timeline theme={customTheme} className="timeline">
                     <Events>
-                    <TextEvent date="Oct 2021 - Present" text="**DevOps Engineer - National Australia Bank (NAB)** <br>
+                    <TextEvent date="Oct 2021 - Present" text="**Senior DevOps Engineer - National Australia Bank (NAB)** <br>
                     <br>As a DevOps Engineer behind the nabONE banker application, my role includes:
                     <br>
                     <br>• Building and optimising a variety of CI/CD pipelines on Jenkins, for the frontend and backend applications.
@@ -89,4 +89,4 @@ class WorkExperience extends React.Component {
 }
 
 
-export default WorkExperience;
+export default Experience;

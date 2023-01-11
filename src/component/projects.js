@@ -7,6 +7,7 @@ import gitHubProjects from '../images/github-projects.png'
 import pihole from '../images/pihole.jpg'
 import terraform_localstack from '../images/terraform-localstack.png'
 import jenkins_k8s from '../images/jenkins-k8s.png'
+import masafootball from '../images/masafootball.png'
 import Button from 'react-bootstrap/Button'
 
 
@@ -24,6 +25,19 @@ class Projects extends React.Component {
                 <br></br><br></br>
                 <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
+                        <Card.Img variant='top' src={masafootball} />
+                        <Card.Body>
+                            <Card.Title>masafootball.org</Card.Title>
+                            <Card.Text className='personalProjectText'>
+                                Community sports platform that facilitates organisation of sports tournaments. Features include registrations, payments, team & player profiles, tournament stats, newsfeed and more.
+                            </Card.Text>
+                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://masafootball.org/'>Visit Website</Button>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className='text-muted'>Website</small>
+                        </Card.Footer>
+                    </Card>
+                    <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={jenkins_k8s} />
                         <Card.Body>
                             <Card.Title>Jenkins Deployment over K8s</Card.Title>
@@ -36,6 +50,9 @@ class Projects extends React.Component {
                             <small className='text-muted'>Git Repo</small>
                         </Card.Footer>
                     </Card>
+                </Row>
+
+                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={pihole} />
                         <Card.Body>
@@ -49,9 +66,6 @@ class Projects extends React.Component {
                             <small className='text-muted'>Article</small>
                         </Card.Footer>
                     </Card>
-                </Row>
-
-                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={terraform_localstack} />
                         <Card.Body>
@@ -65,6 +79,9 @@ class Projects extends React.Component {
                             <small className='text-muted'>Git Repo</small>
                         </Card.Footer>
                     </Card>
+                </Row>
+
+                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={gitHubProjects} />
                         <Card.Body>
@@ -78,9 +95,6 @@ class Projects extends React.Component {
                             <small className='text-muted'>Git Repo</small>
                         </Card.Footer>
                     </Card>
-                </Row>
-
-                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={masteringFarsi} />
                         <Card.Body>
