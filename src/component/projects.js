@@ -32,10 +32,10 @@ class Projects extends React.Component {
                             <Card.Text className='personalProjectText'>
                                 Farsi variation of the famous word game 'Wordle'. Developed with React and ChatGPT was utilised to generate daily words along with translations, pronunciations and example sentences.
                             </Card.Text>
-                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://github.com/ali-qasimi/jenkins-k8s'>Visit Project</Button>
+                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://farsifrenzy.com'>Visit Application</Button>
                         </Card.Body>
                         <Card.Footer>
-                            <small className='text-muted'>Git Repo</small>
+                            <small className='text-muted'>Web App</small>
                         </Card.Footer>
                     </Card>
                     <Card bg='dark' text='light' className='personalProjectCard'>
