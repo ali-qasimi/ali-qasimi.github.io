@@ -8,6 +8,7 @@ import pihole from '../images/pihole.jpg'
 import terraform_localstack from '../images/terraform-localstack.png'
 import jenkins_k8s from '../images/jenkins-k8s.png'
 import masafootball from '../images/masafootball.png'
+import farsifrenzy from '../images/farsifrenzy.png'
 import Button from 'react-bootstrap/Button'
 
 
@@ -25,16 +26,16 @@ class Projects extends React.Component {
                 <br></br><br></br>
                 <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
-                        <Card.Img variant='top' src={masafootball} />
+                        <Card.Img variant='top' src={farsifrenzy} />
                         <Card.Body>
-                            <Card.Title>masafootball.org</Card.Title>
+                            <Card.Title><a className='navLink' href="https://farsifrenzy.com">farsifrenzy.com</a></Card.Title>
                             <Card.Text className='personalProjectText'>
-                                Community sports platform that facilitates organisation of sports tournaments. Features include registrations, payments, team & player profiles, tournament stats, newsfeed and more.
+                                Farsi variation of the famous word game 'Wordle'. Developed with React and ChatGPT was utilised to generate daily words along with translations, pronunciations and example sentences.
                             </Card.Text>
-                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://masafootball.org/'>Visit Website</Button>
+                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://github.com/ali-qasimi/jenkins-k8s'>Visit Project</Button>
                         </Card.Body>
                         <Card.Footer>
-                            <small className='text-muted'>Website</small>
+                            <small className='text-muted'>Git Repo</small>
                         </Card.Footer>
                     </Card>
                     <Card bg='dark' text='light' className='personalProjectCard'>
@@ -54,6 +55,19 @@ class Projects extends React.Component {
 
                 <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
+                        <Card.Img variant='top' src={terraform_localstack} />
+                        <Card.Body>
+                            <Card.Title>Terraform Projects</Card.Title>
+                            <Card.Text className='personalProjectText'>
+                                Some Terraform projects that I have experimented with. I used localstack as the cloud service emulator.
+                            </Card.Text>
+                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://github.com/ali-qasimi/terraform-projects'>Visit Projects</Button>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className='text-muted'>Git Repo</small>
+                        </Card.Footer>
+                    </Card>
+                    <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={pihole} />
                         <Card.Body>
                             <Card.Title>Integrating Pi-hole on Home Network</Card.Title>
@@ -66,22 +80,23 @@ class Projects extends React.Component {
                             <small className='text-muted'>Article</small>
                         </Card.Footer>
                     </Card>
-                    <Card bg='dark' text='light' className='personalProjectCard'>
-                        <Card.Img variant='top' src={terraform_localstack} />
-                        <Card.Body>
-                            <Card.Title>Terraform Projects</Card.Title>
-                            <Card.Text className='personalProjectText'>
-                                Some Terraform projects that I have worked on in my spare time. I used localstack as the cloud service emulator.
-                            </Card.Text>
-                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://github.com/ali-qasimi/terraform-projects'>Visit Projects</Button>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className='text-muted'>Git Repo</small>
-                        </Card.Footer>
-                    </Card>
+                    
                 </Row>
 
                 <Row xs={1} md={2} className='g-4 personalProjectRow'>
+                    <Card bg='dark' text='light' className='personalProjectCard'>
+                        <Card.Img variant='top' src={masafootball} />
+                        <Card.Body>
+                            <Card.Title>masafootball.org</Card.Title>
+                            <Card.Text className='personalProjectText'>
+                                Community sports platform that facilitates organisation of sports tournaments. Features include registrations, payments, team & player profiles, tournament stats, newsfeed and more.
+                            </Card.Text>
+                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://masafootball.org/'>Visit Website</Button>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className='text-muted'>Website</small>
+                        </Card.Footer>
+                    </Card>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={gitHubProjects} />
                         <Card.Body>
@@ -95,6 +110,9 @@ class Projects extends React.Component {
                             <small className='text-muted'>Git Repo</small>
                         </Card.Footer>
                     </Card>
+                </Row>
+                
+                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={masteringFarsi} />
                         <Card.Body>
@@ -110,7 +128,6 @@ class Projects extends React.Component {
                         </Card.Footer>
                     </Card>
                 </Row>
-                    
                 {/* <Card.Footer className="text-muted footer"> made with ❤️ by Ali</Card.Footer> */}
             </div>
         )

@@ -18,7 +18,6 @@ class Home extends React.Component {
     }
 
     render() {
-
         return (
             <div className='page'>
                 <div className='h1Wrapper'>
@@ -26,7 +25,7 @@ class Home extends React.Component {
                 </div>
                 <p>
                 I am a DevOps Engineer and a tech enthusiast. <br></br>
-                I have delivered a variety of projects involving integration of Cloud & On-Prem infrastructure, developing CI/CD pipelines, building automation & optimisation initiatives, and running ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
+                With 5 years of industry experience across banking, telco and vendors, I have delivered a variety of projects involving deployment of Cloud & On-Prem infrastructure, developing CI/CD pipelines, building automation & optimisation initiatives, and running ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
                 <br></br>
                 <br></br>
                 </p>
