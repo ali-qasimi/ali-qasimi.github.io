@@ -11,6 +11,7 @@ import ccnp from '../images/ccnp.png'
 import cisco_specialist from '../images/cisco_specialist.png'
 import ccna from '../images/ccna.png'
 import monash_logo from '../images/monash-logo.png'
+import aws_dop_002 from '../images/aws_dop_002.png'
 
 class Home extends React.Component {
     constructor(props) {
@@ -87,6 +88,17 @@ class Home extends React.Component {
                         />
                         <br></br>
                         <a className="link-text" href='https://www.credly.com/badges/0349ac2c-f1fe-4aae-b2d2-682e6cc7bfe2/public_url' target={"_blank"}>Certified Kubernetes Application Developer (CKAD)<Icon icon="bx:link-external" /> </a>
+                    
+                    </Figure>
+                    <Figure>
+                        <Figure.Image
+                            width={200}
+                            height={200}
+                            // alt="200x200"
+                            src={aws_dop_002}
+                        />
+                        <br></br>
+                        <a className="link-text" href='https://www.credly.com/badges/1fc82b8d-9898-4633-80bd-3b8315ff964c/public_url' target={"_blank"}>AWS Certified DevOps Engineer - Professional<Icon icon="bx:link-external" /> </a>
                     
                     </Figure>
                     <Figure>
