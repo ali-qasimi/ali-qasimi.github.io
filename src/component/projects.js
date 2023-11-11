@@ -30,7 +30,7 @@ class Projects extends React.Component {
                         <Card.Body>
                             <Card.Title><a className='navLink' href="https://farsifrenzy.com">farsifrenzy.com</a></Card.Title>
                             <Card.Text className='personalProjectText'>
-                                Farsi variation of the famous word game 'Wordle'. Developed with React and ChatGPT was utilised to generate daily words along with translations, pronunciations and example sentences.
+                                Farsi variation of the famous word game 'Wordle'. Developed with React and GPT-4 was utilised to generate daily words along with translations, pronunciations and example sentences.
                             </Card.Text>
                             <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://farsifrenzy.com'>Visit Application</Button>
                         </Card.Body>
@@ -119,7 +119,7 @@ class Projects extends React.Component {
                             <Card.Title>Mastering Farsi - From Alphabet to Daily Conversation</Card.Title>
                             <Card.Text className='personalProjectText'>
                                 Online course that teaches how to speak, read and write the Farsi Language.
-                                This course currently has over 11,000 enrolments and a 4.8/5.0 star rating.
+                                This course currently has over 11,000 enrolments and a 4.7/5.0 star rating.
                             </Card.Text>
                             <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://www.udemy.com/course/masteringfarsi/'>Visit Course</Button>
                         </Card.Body>

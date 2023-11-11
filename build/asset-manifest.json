@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dcf17640.css",
-    "main.js": "/static/js/main.3275edb4.js",
+    "main.js": "/static/js/main.5e6563a0.js",
     "static/media/mastering-farsi.png": "/static/media/mastering-farsi.fbc9d5256a5e665adb4e.png",
     "static/media/masafootball.png": "/static/media/masafootball.f002e23c2065fead6dcc.png",
     "static/media/github-projects.png": "/static/media/github-projects.59ea965d955914310a2f.png",
@@ -13,16 +13,17 @@
     "static/media/jenkins-k8s.png": "/static/media/jenkins-k8s.b88d8597758188faf356.png",
     "static/media/aws_saa_002.png": "/static/media/aws_saa_002.22576f263fbae6620043.png",
     "static/media/terraform-localstack.png": "/static/media/terraform-localstack.4ea52a2b94f73a1d35b3.png",
+    "static/media/aws_dop_002.png": "/static/media/aws_dop_002.d533f6b9e5921c16add2.png",
     "static/media/ckad.png": "/static/media/ckad.e2164dd1935bdde54a61.png",
     "static/media/cisco_specialist.png": "/static/media/cisco_specialist.ac288722737b3fbd1702.png",
     "static/media/ccna.png": "/static/media/ccna.cde26e01018713a31d44.png",
     "static/media/farsifrenzy.png": "/static/media/farsifrenzy.53f9d127998b2b29a80c.png",
     "index.html": "/index.html",
     "main.dcf17640.css.map": "/static/css/main.dcf17640.css.map",
-    "main.3275edb4.js.map": "/static/js/main.3275edb4.js.map"
+    "main.5e6563a0.js.map": "/static/js/main.5e6563a0.js.map"
   },
   "entrypoints": [
     "static/css/main.dcf17640.css",
-    "static/js/main.3275edb4.js"
+    "static/js/main.5e6563a0.js"
   ]
 }
