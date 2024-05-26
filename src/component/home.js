@@ -12,6 +12,7 @@ import cisco_specialist from '../images/cisco_specialist.png'
 import ccna from '../images/ccna.png'
 import monash_logo from '../images/monash-logo.png'
 import aws_dop_002 from '../images/aws_dop_002.png'
+import cka from '../images/cka.png'
 
 class Home extends React.Component {
     constructor(props) {
@@ -25,8 +26,8 @@ class Home extends React.Component {
                     <h1 className='typeWriter'>Hi There, I'm Ali Qasimi</h1>
                 </div>
                 <p>
-                I am a DevOps Engineer and a tech enthusiast. <br></br>
-                With 5 years of industry experience across banking, telco and vendors, I have delivered a variety of projects involving deployment of Cloud & On-Prem infrastructure, developing CI/CD pipelines, building automation & optimisation initiatives, and running ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
+                I am a Senior DevOps Engineer and a tech enthusiast. <br></br>
+                With extensive industry experience across banking, telco and vendors, I have delivered a variety of projects involving deployment of Cloud & On-Prem infrastructure, developing CI/CD pipelines, building automation & optimisation initiatives, and running ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
                 <br></br>
                 <br></br>
                 </p>
@@ -36,18 +37,17 @@ class Home extends React.Component {
                 <Container fluid="auto">
                     <Row>
                         <Col className="table-text">AWS<br></br><br></br><Icon className="icons" icon="vscode-icons:file-type-aws" /></Col>
+                        <Col className="table-text">Azure<br></br><br></br><Icon className="icons" icon="logos:microsoft-azure" /></Col>
                         <Col className="table-text">Terraform<br></br><br></br><Icon className="icons" icon="logos:terraform-icon" /></Col>
-                        <Col className="table-text">Jenkins<br></br><br></br><Icon className="icons" icon="logos:jenkins" /></Col>
                     </Row>
                     <Row>
-                        <Col className="table-text">Docker<br></br><br></br><Icon className="icons" icon="logos:docker-icon" /></Col>
                         <Col className="table-text">Kubernetes<br></br><br></br><Icon className="icons" icon="logos:kubernetes" /></Col>
                         <Col className="table-text">Python<br></br><br></br><Icon className="icons" icon="logos:python" /></Col>
-                        
+                        <Col className="table-text">Bash<br></br><br></br><Icon className="icons" icon="logos:bash-icon" /></Col>
                     </Row>
                     <Row>
-                        <Col className="table-text">Bash<br></br><br></br><Icon className="icons" icon="logos:bash-icon" /></Col>
-                        <Col className="table-text"> Linux <br></br><br></br> 
+                        <Col className="table-text">Jenkins<br></br><br></br><Icon className="icons" icon="logos:jenkins" /></Col>
+                        <Col className="table-text">Linux<br></br><br></br> 
                             <Container> 
                                 <Row>
                                     <Col><Icon className="icons-small" icon="logos:redhat-icon"/></Col>
@@ -57,16 +57,16 @@ class Home extends React.Component {
                                 </Row>
                             </Container>
                         </Col>
-                        <Col className="table-text">Azure<br></br><br></br><Icon className="icons" icon="logos:microsoft-azure" /></Col>
+                        <Col className="table-text"> Ansible<br></br><br></br><Icon className="icons" icon="cib:ansible" /></Col>
                         
                     </Row>
                     <Row>
-                        <Col className="table-text"> GitHub<br></br><br></br><Icon className="icons" icon="akar-icons:github-fill" /></Col>
-                        <Col className="table-text"> Ansible<br></br><br></br><Icon className="icons" icon="cib:ansible" /></Col>
                         <Col className="table-text"> AppDynamics<br></br><br></br><Icon className="icons" icon="logos:appdynamics-icon" /></Col>
+                        <Col className="table-text"> Splunk<br></br><br></br><Icon className="icons" icon="simple-icons:splunk" /></Col>
+                        <Col className="table-text"> New Relic<br></br><br></br><Icon className="icons" icon="logos:new-relic-icon" /></Col>
                     </Row>
                     <Row>
-                        <Col className="table-text"> Splunk<br></br><br></br><Icon className="icons" icon="simple-icons:splunk" /></Col>
+                        <Col className="table-text"> Git<br></br><br></br><Icon className="icons" icon="logos:git-icon" /></Col>
                     </Row>
 
                 </Container>
@@ -79,6 +79,17 @@ class Home extends React.Component {
                 <h2 className="header">Certifications</h2>
                 
                 <div className='cert-card'>
+                    <Figure>
+                        <Figure.Image
+                            width={200}
+                            height={200}
+                            // alt="200x200"
+                            src={cka}
+                        />
+                        <br></br>
+                        <a className="link-text" href='https://www.credly.com/badges/d47f91ef-e4e3-45d4-a797-05c8917b515b/public_url' target={"_blank"}>Certified Kubernetes Administrator (CKA)<Icon icon="bx:link-external" /> </a>
+                    
+                    </Figure>
                     <Figure>
                         <Figure.Image
                             width={200}
@@ -109,7 +120,7 @@ class Home extends React.Component {
                             src={az_104}
                         />
                         <br></br>
-                        <a className="link-text" href='https://www.credly.com/badges/8408658f-d82d-45e1-bd89-4caaa4df2529/public_url' target={"_blank"}>Azure Administrator Associate<Icon icon="bx:link-external" /> </a>
+                        <a className="link-text" href='https://learn.microsoft.com/en-au/users/aliqasimi-3430/credentials/ab82fcb718acde2a' target={"_blank"}>Azure Administrator Associate<Icon icon="bx:link-external" /> </a>
                     
                     </Figure>
                     <Figure>
