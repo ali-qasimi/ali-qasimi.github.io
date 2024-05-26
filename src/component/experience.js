@@ -43,7 +43,7 @@ class Experience extends React.Component {
                 <Timeline theme={customTheme} className="timeline">
                     <Events>
                     <TextEvent date="Jan 2024 - Present" text="**Senior Platform Engineer - Belong** <br>
-                    <br>Tech Stack: AWS, Kubernetes, Python, Bash, Jenkins, GitLab, New Relic, Windows AD"
+                    <br>Tech Stack: AWS, Kubernetes, Terraform, Python, Bash, Jenkins, GitLab, New Relic, Windows AD"
                     />
                     <TextEvent date="Dec 2022 - Jan 2024" text="**Senior DevOps Engineer - National Australia Bank (NAB)** <br>
                     <br>• Migrated 35+ microservices & micro-frontends onto EKS & AKS clusters, Hashicorp Vault secret management and Harness CI/CD pipelines.
