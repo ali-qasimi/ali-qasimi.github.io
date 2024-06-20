@@ -156,26 +156,6 @@ class Home extends React.Component {
                     </Figure>
                     <Figure>
                         <Figure.Image
-                            width={200}
-                            height={200}
-                            // alt="200x200"
-                            src={cisco_specialist}
-                        />
-                        <br></br>
-                        <a className="link-text" href='https://www.credly.com/badges/592bc765-d46b-459e-ab84-a3214d94221a/public_url' target={"_blank"}>Cisco Certified Specialist - Enterprise Advanced Infrastructure Implementation (ENARSI) <Icon icon="bx:link-external" /> </a>
-                    </Figure>
-                    <Figure>
-                        <Figure.Image
-                                width={200}
-                                height={200}
-                            // alt="200x200"
-                            src={cisco_specialist}
-                        />
-                        <br></br>
-                        <a className="link-text" href='https://www.credly.com/badges/592bc765-d46b-459e-ab84-a3214d94221a/public_url' target={"_blank"}>Cisco Certified Specialist - Enterprise Core <Icon icon="bx:link-external" /> </a>
-                    </Figure>
-                    <Figure>
-                        <Figure.Image
                                 width={200}
                                 height={200}
                             // alt="200x200"
@@ -198,7 +178,7 @@ class Home extends React.Component {
                 </div>
 
                 <hr class="solid"></hr>
-                <Card.Footer className="text-muted footer"> made with ❤️ by Ali</Card.Footer>
+                <Card.Footer className="text-muted footer">Ali Qasimi</Card.Footer>
             </div>
         )
     }

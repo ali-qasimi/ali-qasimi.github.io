@@ -27,7 +27,7 @@ class Contact extends React.Component {
                         <a href='https://www.linkedin.com/in/aliqasimi/' target={"_blank"} className="contactIcon"> <Icon icon="logos:linkedin" /> <Icon icon="bx:link-external" /> </a>
                     </div>
                 </p>
-                {/* <Card.Footer className="text-muted footer"> made with ❤️ by Ali</Card.Footer> */}
+                {/* <Card.Footer className="text-muted footer">Ali Qasimi</Card.Footer> */}
             </div>
         )
     }

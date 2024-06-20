@@ -128,7 +128,7 @@ class Projects extends React.Component {
                         </Card.Footer>
                     </Card>
                 </Row>
-                {/* <Card.Footer className="text-muted footer"> made with ❤️ by Ali</Card.Footer> */}
+                {/* <Card.Footer className="text-muted footer">Ali Qasimi</Card.Footer> */}
             </div>
         )
     }

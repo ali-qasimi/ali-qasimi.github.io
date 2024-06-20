@@ -82,7 +82,7 @@ class Experience extends React.Component {
 
 
                 </Timeline>
-                {/* <Card.Footer className="text-muted footer"> made with ❤️ by Ali</Card.Footer> */}
+                {/* <Card.Footer className="text-muted footer">Ali Qasimi</Card.Footer> */}
             </div>
         )
     }
