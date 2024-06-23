@@ -51,7 +51,7 @@ class Experience extends React.Component {
                     <br>• Automated weekly patching of EC2 instances with thorough verification and status reporting.
                     <br>• Remediated critical security vulnerabilities across the application team's infrastructure.
                     <br>• Introduced SSL certificate renewal workflow that enabled new certificates to be deployed into production with 75% improved time efficiency and reducing production incidents.
-                    <br>• Travelled to NAB Vietnam office to onboard and train offshore DevOps BAU squad over a span of 4 weeks.
+                    <br>• Travelled to NAB Vietnam office to onboard and train DevOps BAU squad over a span of 4 weeks.
                     <br>• Executed DR tests for multi-cloud workloads and resolved gaps in the high availability architecture."
                     />
                     <TextEvent date="Oct 2021 - Dec 2022" text="**DevOps Engineer - National Australia Bank (NAB)** <br>
