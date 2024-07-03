@@ -7,9 +7,24 @@ body {
   font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
-.navLink {
+ .navLink {
   color: azure;
+  font-size: 100%;
 }
+/*
+@media (max-width: 500px) {
+  .navLink {
+    color: blue !important;
+    padding: 0px 0px !important;
+  }
+} */
+
+/* .nav-link {
+  padding: .8rem 0rem !important;
+  color: azure !important;
+  font-size: 12px;
+  width: min-content !important;
+} */
 
 .h1Wrapper {
   width: max-content;
@@ -29,6 +44,9 @@ h1 {
   }
   h2 {
     font-size: 4.5vw !important;
+  }
+  h3 {
+    font-size: 4vw !important;
   }
 }
 
@@ -193,4 +211,26 @@ hr.solid {
   /* left: 42%; */
   text-align: center;
 }
-  
+
+.goodreads > * {
+  margin-top: 30px;
+  color: azure !important;
+}
+@media (min-width: 768px) {
+  .goodreads > * {
+    margin-top: 30px;
+    color: azure;
+  }
+}
+
+.strava {
+  color: azure;
+  margin-top: 50px;
+  position: relative;
+}
+.stravaWidget {
+  display: grid;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}

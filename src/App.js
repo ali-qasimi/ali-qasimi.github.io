@@ -7,6 +7,7 @@ import Contact from './component/contact';
 import Experience from './component/experience';
 import Projects from './component/projects';
 import Navigation from './component/navigation';
+import Blog from './component/blog';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class PersonalWebsite extends React.Component {
@@ -24,6 +25,7 @@ class PersonalWebsite extends React.Component {
                   <Route exact path='/experience' element={< Experience />}></Route>
                   <Route exact path='/projects' element={< Projects />}></Route>
                   <Route exact path='/contact' element={< Contact />}></Route>
+                  <Route exact path='/blog' element={< Blog />}></Route>
                   <Route exact path='/*' element={< Home />}></Route>
                 </Routes>
             </Container>
