@@ -31,7 +31,7 @@ class Projects extends React.Component {
                         <Card.Body>
                             <Card.Title><a>ErsalPay B2B App</a></Card.Title>
                             <Card.Text className='personalProjectText'>
-                                Revenue generating app for remittance small businesses to automate their business workflows while remaining compliant with AUSTRAC compliance responsibilities. Developed with React, Python (Flask), MongoDB and AWS.
+                                Revenue generating app for remittance small businesses to automate their business workflows while remaining compliant with AUSTRAC regulatory responsibilities. Developed with React, Python (Flask), MongoDB and AWS.
                             </Card.Text>
                             {/* <Button variant='light' disabled={true} className='personalProjectButton'>Private App</Button> */}
                         </Card.Body>

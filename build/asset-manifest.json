@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d30ed97.css",
-    "main.js": "/static/js/main.79217279.js",
+    "main.js": "/static/js/main.d7c66dbd.js",
     "static/media/mastering-farsi.png": "/static/media/mastering-farsi.fbc9d5256a5e665adb4e.png",
     "static/media/masafootball.png": "/static/media/masafootball.f002e23c2065fead6dcc.png",
     "static/media/github-projects.png": "/static/media/github-projects.59ea965d955914310a2f.png",
@@ -10,6 +10,7 @@
     "static/media/aws_soa_002.png": "/static/media/aws_soa_002.90b0f4fad9044fc5128a.png",
     "static/media/pihole.jpg": "/static/media/pihole.8a3a9cf2f289024f150c.jpg",
     "static/media/az_104.png": "/static/media/az_104.493b5ff8fadae45105e3.png",
+    "static/media/ersalpay.png": "/static/media/ersalpay.49b56338538a83a9e254.png",
     "static/media/jenkins-k8s.png": "/static/media/jenkins-k8s.b88d8597758188faf356.png",
     "static/media/aws_saa_002.png": "/static/media/aws_saa_002.22576f263fbae6620043.png",
     "static/media/terraform-localstack.png": "/static/media/terraform-localstack.4ea52a2b94f73a1d35b3.png",
@@ -21,10 +22,10 @@
     "static/media/farsifrenzy.png": "/static/media/farsifrenzy.53f9d127998b2b29a80c.png",
     "index.html": "/index.html",
     "main.0d30ed97.css.map": "/static/css/main.0d30ed97.css.map",
-    "main.79217279.js.map": "/static/js/main.79217279.js.map"
+    "main.d7c66dbd.js.map": "/static/js/main.d7c66dbd.js.map"
   },
   "entrypoints": [
     "static/css/main.0d30ed97.css",
-    "static/js/main.79217279.js"
+    "static/js/main.d7c66dbd.js"
   ]
 }
