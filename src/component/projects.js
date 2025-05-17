@@ -9,6 +9,7 @@ import terraform_localstack from '../images/terraform-localstack.png'
 import jenkins_k8s from '../images/jenkins-k8s.png'
 import masafootball from '../images/masafootball.png'
 import farsifrenzy from '../images/farsifrenzy.png'
+import ersalpay from '../images/ersalpay.png'
 import Button from 'react-bootstrap/Button'
 
 
@@ -26,18 +27,35 @@ class Projects extends React.Component {
                 <br></br><br></br>
                 <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
+                        <Card.Img variant='top' src={ersalpay} />
+                        <Card.Body>
+                            <Card.Title><a>ErsalPay B2B App</a></Card.Title>
+                            <Card.Text className='personalProjectText'>
+                                Revenue generating app for remittance small businesses to automate their business workflows while remaining compliant with AUSTRAC compliance responsibilities. Developed with React, Python (Flask), MongoDB and AWS.
+                            </Card.Text>
+                            {/* <Button variant='light' disabled={true} className='personalProjectButton'>Private App</Button> */}
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className='text-muted'>B2B SaaS</small>
+                        </Card.Footer>
+                    </Card>
+                    <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={farsifrenzy} />
                         <Card.Body>
-                            <Card.Title><a className='navLink' href="https://farsifrenzy.com">farsifrenzy.com</a></Card.Title>
+                            <Card.Title><a className='navLink' href="https://farsifrenzy.netlify.app">farsifrenzy.com</a></Card.Title>
                             <Card.Text className='personalProjectText'>
                                 Farsi variation of the famous word game 'Wordle'. Developed with React and GPT-4 was utilised to generate daily words along with translations, pronunciations and example sentences.
                             </Card.Text>
-                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://farsifrenzy.com'>Visit Application</Button>
+                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://farsifrenzy.netlify.app'>Visit Application</Button>
                         </Card.Body>
                         <Card.Footer>
                             <small className='text-muted'>Web App</small>
                         </Card.Footer>
                     </Card>
+                    
+                </Row>
+
+                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={jenkins_k8s} />
                         <Card.Body>
@@ -51,9 +69,6 @@ class Projects extends React.Component {
                             <small className='text-muted'>Git Repo</small>
                         </Card.Footer>
                     </Card>
-                </Row>
-
-                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={terraform_localstack} />
                         <Card.Body>
@@ -67,6 +82,11 @@ class Projects extends React.Component {
                             <small className='text-muted'>Git Repo</small>
                         </Card.Footer>
                     </Card>
+                    
+                    
+                </Row>
+
+                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={pihole} />
                         <Card.Body>
@@ -80,10 +100,6 @@ class Projects extends React.Component {
                             <small className='text-muted'>Article</small>
                         </Card.Footer>
                     </Card>
-                    
-                </Row>
-
-                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={masafootball} />
                         <Card.Body>
@@ -97,6 +113,10 @@ class Projects extends React.Component {
                             <small className='text-muted'>Website</small>
                         </Card.Footer>
                     </Card>
+                    
+                </Row>
+                
+                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={gitHubProjects} />
                         <Card.Body>
@@ -110,9 +130,6 @@ class Projects extends React.Component {
                             <small className='text-muted'>Git Repo</small>
                         </Card.Footer>
                     </Card>
-                </Row>
-                
-                <Row xs={1} md={2} className='g-4 personalProjectRow'>
                     <Card bg='dark' text='light' className='personalProjectCard'>
                         <Card.Img variant='top' src={masteringFarsi} />
                         <Card.Body>
