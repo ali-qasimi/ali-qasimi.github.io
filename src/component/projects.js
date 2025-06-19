@@ -124,7 +124,7 @@ class Projects extends React.Component {
                             <Card.Text className='personalProjectText'>
                                 Various projects available on my GitHub repository
                             </Card.Text>
-                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://github.com/ali-qasimi?tab=repositories&q=&type=source&language=&sort='>Visit Repo</Button>
+                            <Button variant='light' target={"_blank"} className='personalProjectButton' href='https://github.com/ali-qasimi'>Visit Repo</Button>
                         </Card.Body>
                         <Card.Footer>
                             <small className='text-muted'>Git Repo</small>
