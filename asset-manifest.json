@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d30ed97.css",
-    "main.js": "/static/js/main.e22cd93d.js",
+    "main.js": "/static/js/main.91e4e35f.js",
     "static/media/mastering-farsi.png": "/static/media/mastering-farsi.fbc9d5256a5e665adb4e.png",
     "static/media/masafootball.png": "/static/media/masafootball.e649bd15b446de71fc72.png",
     "static/media/github-projects.png": "/static/media/github-projects.59ea965d955914310a2f.png",
@@ -22,10 +22,10 @@
     "static/media/farsifrenzy.png": "/static/media/farsifrenzy.53f9d127998b2b29a80c.png",
     "index.html": "/index.html",
     "main.0d30ed97.css.map": "/static/css/main.0d30ed97.css.map",
-    "main.e22cd93d.js.map": "/static/js/main.e22cd93d.js.map"
+    "main.91e4e35f.js.map": "/static/js/main.91e4e35f.js.map"
   },
   "entrypoints": [
     "static/css/main.0d30ed97.css",
-    "static/js/main.e22cd93d.js"
+    "static/js/main.91e4e35f.js"
   ]
 }
