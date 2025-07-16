@@ -26,8 +26,8 @@ class Home extends React.Component {
                     <h1 className='typeWriter'>Hi There, I'm Ali Qasimi</h1>
                 </div>
                 <p>
-                I am a Senior DevOps Engineer and a tech enthusiast. <br></br>
-                With extensive industry experience across banking, telco and vendors, I have delivered a variety of projects involving deployment of Cloud & On-Prem infrastructure, developing CI/CD pipelines, building automation & optimisation initiatives, and running ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
+                I am a Senior Engineer and a tech enthusiast. <br></br>
+                With extensive industry experience across banking, SaaS and telco, I have delivered a variety of projects involving deployment of multi-cloud & on-prem infrastructure, developing CI/CD pipelines, building automation & optimisation initiatives, and running ongoing operations. I have a keen interest to learn and work with the latest and greatest technologies.
                 <br></br>
                 <br></br>
                 </p>
@@ -43,10 +43,18 @@ class Home extends React.Component {
                     <Row>
                         <Col className="table-text">Kubernetes<br></br><br></br><Icon className="icons" icon="logos:kubernetes" /></Col>
                         <Col className="table-text">Python<br></br><br></br><Icon className="icons" icon="logos:python" /></Col>
-                        <Col className="table-text">Bash<br></br><br></br><Icon className="icons" icon="logos:bash-icon" /></Col>
+                        <Col className="table-text">Golang<br></br><br></br><Icon className="icons" icon="logos:gopher" /></Col>
                     </Row>
                     <Row>
-                        <Col className="table-text">Jenkins<br></br><br></br><Icon className="icons" icon="logos:jenkins" /></Col>
+                        <Col className="table-text">Bash<br></br><br></br><Icon className="icons" icon="logos:bash-icon" /></Col>
+                        <Col className="table-text">CI/CD<br></br><br></br>
+                            <Container> 
+                                <Row>
+                                    <Col><Icon className="icons-small" icon="logos:jenkins" /></Col>
+                                    <Col><Icon className="icons-small" icon="logos:gitlab"/></Col>
+                                </Row>
+                            </Container>
+                        </Col>
                         <Col className="table-text">Linux<br></br><br></br> 
                             <Container> 
                                 <Row>
@@ -57,15 +65,14 @@ class Home extends React.Component {
                                 </Row>
                             </Container>
                         </Col>
-                        <Col className="table-text"> Ansible<br></br><br></br><Icon className="icons" icon="cib:ansible" /></Col>
-                        
                     </Row>
                     <Row>
+                        <Col className="table-text"> Ansible<br></br><br></br><Icon className="icons" icon="cib:ansible" /></Col>
                         <Col className="table-text"> AppDynamics<br></br><br></br><Icon className="icons" icon="logos:appdynamics-icon" /></Col>
                         <Col className="table-text"> Splunk<br></br><br></br><Icon className="icons" icon="simple-icons:splunk" /></Col>
-                        <Col className="table-text"> New Relic<br></br><br></br><Icon className="icons" icon="logos:new-relic-icon" /></Col>
                     </Row>
                     <Row>
+                        <Col className="table-text"> New Relic<br></br><br></br><Icon className="icons" icon="logos:new-relic-icon" /></Col>
                         <Col className="table-text"> Git<br></br><br></br><Icon className="icons" icon="logos:git-icon" /></Col>
                     </Row>
 
